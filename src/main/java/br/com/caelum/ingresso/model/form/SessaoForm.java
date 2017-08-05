@@ -25,6 +25,16 @@ public class SessaoForm {
 	
 	@NotNull
 	private Integer filmeId;
+	
+	
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
 
 	public Integer getSalaId() {
 		return salaId;
