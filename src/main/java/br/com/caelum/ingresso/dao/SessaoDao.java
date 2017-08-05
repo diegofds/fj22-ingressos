@@ -11,7 +11,6 @@ import br.com.caelum.ingresso.model.Sala;
 import br.com.caelum.ingresso.model.Sessao;
 
 @Repository
-
 public class SessaoDao {
 
 	@PersistenceContext
