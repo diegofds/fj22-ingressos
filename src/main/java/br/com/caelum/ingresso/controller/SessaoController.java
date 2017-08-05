@@ -37,7 +37,7 @@ public class SessaoController {
 		
 		form.setSalaId(salaId);
 		
-		ModelAndView modelAndView = new ModelAndView("sessao/sessão");
+		ModelAndView modelAndView = new ModelAndView("sessao/sessao");
 		
 		modelAndView.addObject("sala", salaDao.findOne(salaId));
 		modelAndView.addObject("filmes", filmeDao.findAll());
